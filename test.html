@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>Compiled selectors</title>
+</head>
+<body>
+    <ul>
+		<li>speed</li>
+		<li>it</li>
+		<li id="test">up</li>
+	</ul>
+	
+	<script src="jquery-1.9.1.js"></script>
+	<script src="parser.js"></script>
+	<script src="cselectors.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		console.log($$("body"));
+	});
+	
+	</script>
+</body>
+</html>
