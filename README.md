@@ -23,6 +23,6 @@ At current time work only such kind of selectors like:
 * `tagName`
 * `.Class`
 * `#id ` 
-and their combinations: `some one, another.one children#selector`
+and their combinations: `some one, another.one children#selector` are parsed, but not work.
 
 In this project lexx/bison parser are used(thanks to [Zach Carter](https://github.com/zaach/jison "jison repository") for interactive parser browser version and compilation).
